@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: MainTests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.25 s <<< FAILURE! - in MainTests
+MainTests.testGetTotalOverpayment  Time elapsed: 0.047 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Main.getTotalOverpayment(int, int, double)" because "this.sut" is null
+	at MainTests.testGetTotalOverpayment(MainTests.java:78)
+
+MainTests.testGetMonthlyPayment  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Main.getMonthlyPayment(int, int, double)" because "this.sut" is null
+	at MainTests.testGetMonthlyPayment(MainTests.java:40)
+
+MainTests.testCheckDoubleEntry(Scanner, String, double)[1]  Time elapsed: 0.047 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Main.checkDoubleEntry(java.util.Scanner, String)" because "this.sut" is null
+	at MainTests.testCheckDoubleEntry(MainTests.java:102)
+
+MainTests.testCheckDoubleEntry(Scanner, String, double)[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Main.checkDoubleEntry(java.util.Scanner, String)" because "this.sut" is null
+	at MainTests.testCheckDoubleEntry(MainTests.java:102)
+
+MainTests.testCheckIntEntry(Scanner, int, int, String, int)[1]  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Main.checkIntEntry(java.util.Scanner, int, int, String)" because "this.sut" is null
+	at MainTests.testCheckIntEntry(MainTests.java:87)
+
+MainTests.testCheckIntEntry(Scanner, int, int, String, int)[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Main.checkIntEntry(java.util.Scanner, int, int, String)" because "this.sut" is null
+	at MainTests.testCheckIntEntry(MainTests.java:87)
+
+MainTests.testGetTotalPayment  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Main.getTotalPayment(int, int, double)" because "this.sut" is null
+	at MainTests.testGetTotalPayment(MainTests.java:53)
+
+MainTests.testGetAnnuityRatio  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Main.getAnnuityRatio(int, double)" because "this.sut" is null
+	at MainTests.testGetAnnuityRatio(MainTests.java:65)
+
