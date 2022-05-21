@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MainTests" time="0.25" tests="8" errors="8" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MainTests" time="0.355" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\zaver\.jdks\corretto-17.0.3\bin"/>
-    <property name="sun.java.command" value="C:\Users\zaver\AppData\Local\Temp\surefire489832516896422807\surefirebooter11686762189276531645.jar C:\Users\zaver\AppData\Local\Temp\surefire489832516896422807 2022-05-21T00-33-56_516-jvmRun1 surefire13459326349773810224tmp surefire_010038361234328032074tmp"/>
+    <property name="sun.java.command" value="C:\Users\zaver\AppData\Local\Temp\surefire5650197762960710908\surefirebooter18074026601286226033.jar C:\Users\zaver\AppData\Local\Temp\surefire5650197762960710908 2022-05-21T19-47-14_156-jvmRun1 surefire222932781875335476tmp surefire_01449963987576977211tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\zaver\IdeaProjects\CreditCalculator\target\test-classes;C:\Users\zaver\IdeaProjects\CreditCalculator\target\classes;C:\Users\zaver\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\zaver\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\zaver\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zaver\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\zaver\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\zaver\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zaver\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\zaver\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\zaver\AppData\Local\Temp\surefire489832516896422807\surefirebooter11686762189276531645.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\zaver\AppData\Local\Temp\surefire5650197762960710908\surefirebooter18074026601286226033.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+6-LTS"/>
@@ -58,60 +58,40 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testGetTotalOverpayment" classname="MainTests" time="0.047">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "Main.getTotalOverpayment(int, int, double)" because "this.sut" is null
-	at MainTests.testGetTotalOverpayment(MainTests.java:78)
-]]></error>
+  <testcase name="testGetTotalOverpayment" classname="MainTests" time="0.049">
     <system-out><![CDATA[Tests started.
 test completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testGetMonthlyPayment" classname="MainTests" time="0.016">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "Main.getMonthlyPayment(int, int, double)" because "this.sut" is null
-	at MainTests.testGetMonthlyPayment(MainTests.java:40)
-]]></error>
+  <testcase name="testGetMonthlyPayment" classname="MainTests" time="0.006">
     <system-out><![CDATA[test completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckDoubleEntry(Scanner, String, double)[1]" classname="MainTests" time="0.047">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "Main.checkDoubleEntry(java.util.Scanner, String)" because "this.sut" is null
-	at MainTests.testCheckDoubleEntry(MainTests.java:102)
-]]></error>
+  <testcase name="testCheckDoubleEntry(Scanner, String, double)[1]" classname="MainTests" time="0.091">
+    <system-out><![CDATA[Message
+test completed.
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckDoubleEntry(Scanner, String, double)[2]" classname="MainTests" time="0.013">
+    <system-out><![CDATA[Message
+test completed.
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckIntEntry(Scanner, int, int, String, int)[1]" classname="MainTests" time="0.006">
+    <system-out><![CDATA[Message
+test completed.
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckIntEntry(Scanner, int, int, String, int)[2]" classname="MainTests" time="0.005">
+    <system-out><![CDATA[Message
+test completed.
+]]></system-out>
+  </testcase>
+  <testcase name="testGetTotalPayment" classname="MainTests" time="0.002">
     <system-out><![CDATA[test completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckDoubleEntry(Scanner, String, double)[2]" classname="MainTests" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "Main.checkDoubleEntry(java.util.Scanner, String)" because "this.sut" is null
-	at MainTests.testCheckDoubleEntry(MainTests.java:102)
-]]></error>
-    <system-out><![CDATA[test completed.
-]]></system-out>
-  </testcase>
-  <testcase name="testCheckIntEntry(Scanner, int, int, String, int)[1]" classname="MainTests" time="0.016">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "Main.checkIntEntry(java.util.Scanner, int, int, String)" because "this.sut" is null
-	at MainTests.testCheckIntEntry(MainTests.java:87)
-]]></error>
-    <system-out><![CDATA[test completed.
-]]></system-out>
-  </testcase>
-  <testcase name="testCheckIntEntry(Scanner, int, int, String, int)[2]" classname="MainTests" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "Main.checkIntEntry(java.util.Scanner, int, int, String)" because "this.sut" is null
-	at MainTests.testCheckIntEntry(MainTests.java:87)
-]]></error>
-    <system-out><![CDATA[test completed.
-]]></system-out>
-  </testcase>
-  <testcase name="testGetTotalPayment" classname="MainTests" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "Main.getTotalPayment(int, int, double)" because "this.sut" is null
-	at MainTests.testGetTotalPayment(MainTests.java:53)
-]]></error>
-    <system-out><![CDATA[test completed.
-]]></system-out>
-  </testcase>
-  <testcase name="testGetAnnuityRatio" classname="MainTests" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "Main.getAnnuityRatio(int, double)" because "this.sut" is null
-	at MainTests.testGetAnnuityRatio(MainTests.java:65)
-]]></error>
+  <testcase name="testGetAnnuityRatio" classname="MainTests" time="0.002">
     <system-out><![CDATA[test completed.
 ]]></system-out>
   </testcase>

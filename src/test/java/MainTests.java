@@ -2,6 +2,7 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+
 import java.util.Scanner;
 import java.util.stream.Stream;
 
@@ -62,7 +63,7 @@ public class MainTests {
         double loanInterestRate = 33.3;
         double expected = 0.03224;
         //act
-        double result = Math.round((sut.getAnnuityRatio(loanTerm, loanInterestRate)*100000.0))/100000.0;
+        double result = Math.round((sut.getAnnuityRatio(loanTerm, loanInterestRate) * 100000.0)) / 100000.0;
         //assert
         assertEquals(expected, result);
     }
@@ -92,7 +93,7 @@ public class MainTests {
     public static Stream<Arguments> intSource() {
 
         return Stream.of(Arguments.of("2", 1, 60, "Message", 2), Arguments.of("250000",
-                        100000, 10000000, "Message", 250000));
+                100000, 10000000, "Message", 250000));
     }
 
     @ParameterizedTest
